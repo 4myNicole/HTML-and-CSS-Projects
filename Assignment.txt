@@ -5,14 +5,22 @@
 <meta charset="utf-8">
   </head>
 <body>
+<a href="file://///ant.amazon.com/dept-eu/MAN3/Support/ICQA/Team%20Folders/Amy/HTML/Assignment.html">Cats And Dogs</a>
+<a href="file://///ant.amazon.com/dept-eu/MAN3/Support/ICQA/Team%20Folders/Amy/HTML/Dog.html">Dog Picture</a>
+<a href="https://www.youtube.com/watch?v=TTc6S0QFXE4">Dog Video</a>
+</nav> 
 <h1> Cats </h1>
 <main>
 <p> 
 I love cats
 Cats are the best
 </p>
-<img src="https://en.wikipedia.org/wiki/Tabby_cat#/media/File:Cat_November_2010-1a.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg">
 </main>
+<blockquote cite="https://en.wikipedia.org/wiki/Cat">
+The cat (Felis catus) is a domestic species of small carnivorous mammal.
+</blockquote>
+
 <h3>
 Dogs
 </h3>
