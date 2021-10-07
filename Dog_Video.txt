@@ -9,14 +9,13 @@
 <nav>
 <a href="file:///Users/amyandcallum/Documents/HTML-and-CSS-Projects/Assignment.html">Cats And Dogs</a>
 <a href="file:///Users/amyandcallum/Documents/HTML-and-CSS-Projects/Dog.html">Dog Picture</a>
-<a href="">Dog Video</a>
+<a href="file:///Users/amyandcallum/Documents/HTML-and-CSS-Projects/Dog_Video.html">Dog Video</a>
 </nav>
 
-<embed src="https://www.youtube.com/watch?v=TTc6S0QFXE4?autoplay=1"
-width="200" height ="200" Title="Dog">
-
+<iframe width="420" height="315"
+src="https://www.youtube.com/embed/B14jSX1hmDw">
+</iframe>
 </body>
-
 
 
 </html>
