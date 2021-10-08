@@ -7,9 +7,9 @@
 
 <body> 
 <nav>
-<a href="HTML-and-CSS-Projects/Assignment.html">Cats And Dogs</a>
-<a href="HTML-and-CSS-Projects/Dog.html">Dog Picture</a>
-<a href="HTML-and-CSS-Projects/Dog_Video.html">Dog Video</a>
+<a href="/Assignment.html">Cats And Dogs</a>
+<a href="/Dog.html">Dog Picture</a>
+<a href="/Dog_Video.html">Dog Video</a>
 </nav>
 
 <iframe width="420" height="315"
