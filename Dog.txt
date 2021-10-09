@@ -6,9 +6,9 @@
   </head>
 <body>
 <nav>
-<a href="/Assignment.html">Cats And Dogs</a>
-<a href="/Dog.html">Dog Picture</a>
-<a href="/Dog_Video.html">Dog Video</a>
+<a href="Assignment.html">Cats And Dogs</a>
+<a href="Dog.html">Dog Picture</a>
+<a href="Dog_Video.html">Dog Video</a>
 </nav>
 
 <img src="yorkshire-terrier-3.jpg">
