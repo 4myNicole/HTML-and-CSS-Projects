@@ -2,6 +2,6 @@
 <html>
 <body>
  <link rel = "stylesheet" type = "text/CSS" href = "p_class_attribute.css">
-   <p> Black and greeeeeeeeeeen </p>
+   <p> Black &amp; greeeeeeeeeeen </p>
 </body>
 </html>
