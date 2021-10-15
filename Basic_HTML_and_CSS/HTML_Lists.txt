@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+   <head>
+  <link rel="stylesheet" type="text/css" href="CSS_Lists.css">
+</head> 
 <body>
 <ol>
   <li>Wake up</li>
@@ -16,4 +19,4 @@
   <li>Cake</li>
 </ul>
 <body>
-<html>
+</html>
