@@ -4,3 +4,7 @@ color: green;
 text-align: right;
 font-weight: bold;
 }
+
+h1 { 
+  text-shadow: 2px 2px blue;
+}
