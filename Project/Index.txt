@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+       <meta charset="utf-8">
+       <title>Cat Hotel and Spa</title> 
+  </head>
+  <body> 
+
+            <!-- NAV -->
+  <div>
+      <div>
+           <u1>
+                 <a href="#home" id="link"><li>HOME</li></a>
+                 <a href="#gallery" id="link"><li>GALLERY</li></a>
+                 <a href="#booking" id="link"><li>BOOKING</li></a>
+            </ul>
+       </div>
+   </div>
+             <!-- END NAV -->
+
+             <!-- HOME -->
+    
+  <div id="home">
+      <div>
+           <div>
+               <span>Hotel and Spa</span>
+             </div>
+       </div>
+   </div>
+
+             <!-- END HOME -->
+
+             <!-- GALLERY -->
+    <section>
+         <div id="gallery"> 
+               <h1>Gallery</h1>
+               <div>
+   
+                     <!-- PHOTO CONTAINER 1 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_1.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 1 -->
+
+                     <!-- PHOTO CONTAINER 2 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_2.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 2 -->
+
+                     <!-- PHOTO CONTAINER 3 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_3.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 3 -->
+
+                     <!-- PHOTO CONTAINER 4 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_4.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 4 -->
+
+                     <!-- PHOTO CONTAINER 5 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_5.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 5 -->
+
+                     <!-- PHOTO CONTAINER 6 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_6.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 6 -->
+
+                     <!-- PHOTO CONTAINER 7 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_7.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 7 -->
+
+                     <!-- PHOTO CONTAINER 8 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_8.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 8 -->
+
+                     <!-- PHOTO CONTAINER 9 -->
+                     <div>
+                        <div> 
+                            <img src="./images/thumb/thumbnail_9.jpeg" alt="You’ve got to be kitten me. Sorry, no image available.">
+                           <div> 
+                               <h3>Click to Enlarge</h3>
+                               <p>We have plenty of rooms available for your special little friends, book now and don't miss out!</p>
+                           </div>
+                         </div>
+                      </div>
+                      <!-- END PHOTO CONTAINER 9 -->
+
+               </div>
+           </div>
+     </section>
+                      <!-- END GALLERY -->
+
+                      <!-- BOOKING -->
+     <section>
+         <div id="booking">
+             <div>
+                 <h1>Booking</h1>
+                 <div>
+                     <h2><span>Our hotel is purrfect for your cats.</span>
+                         <br />Book a room today!
+                     </h2> 
+                     <p>
+                         Please enter your contact information
+                     </p>
+                     <div>
+                         <form action="" method="post">
+                             <input class="rsvp" type="text" value="Cat's Name">
+                             <input class="rsvp" type="text" value="Pet's Age">
+                             <input class="rsvp" type="text" value="Your Name">
+                             <input class="rsvp" type="text" value="Email Address">
+                             <input class="rsvp" type="text" value="Phone Number">
+                             <div class="form-spacer">
+                                  <label class="terms">Terms and Conditions</label>
+                             </div>
+                             <div>
+                                  <input type="submit" value="Submit"> 
+                             </div>
+                           </form>
+                         </div>
+                       </div>
+                     </div>
+                  </div>
+               </section>
+                           <!-- END BOOKING -->
+
+                           <!-- FOOTER -->
+
+             <div>
+      www.cathotelandspa.cat &nbsp;|&nbsp; &copy; 1995
+             </div>
+                           <!-- END FOOTER -->
+   
+
+</body>
+</html>
