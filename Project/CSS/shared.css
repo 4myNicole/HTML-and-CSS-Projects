@@ -117,7 +117,7 @@ section {
 .wrap {
     height: 100%;
     width: 100%;
-    position: ;
+    position: absolute;
     /* ensures images cannot render out of container*/
     overflow: hidden;
     top: 0;
@@ -144,14 +144,14 @@ HOME SECTION STYLES
 ------------------------------*/
 
 #home {
-    background:url(..images/cats.jpg) no-repeat 50% 50%;
+    background:url(../images/cats.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     width: 100%;
-    display: auto;
+    display: block;
     height: auto;
     padding-top: 350px; /* spacer before main tiitle logo */
     padding-bottom: 500px; /* spacer after main tiitle logo */
@@ -164,7 +164,7 @@ HOME SECTION STYLES
     color: #fff;
     letter-spacing: 21pt;
     word-spacing: 21pt;
-    font-size: 4.5cm;
+    font-size: 4.5em;
     text-align: left;
     font-family: impact, sans-serif;
     line-height: 2;
@@ -176,12 +176,12 @@ HOME SECTION STYLES
 .head-sub-main {
     font-size: 23px;
     font-weight: 500;
-    padding: 5px 20px 20px 20px;
+    padding: 50px 20px 10px 20px;
     text-transform: uppercase;
 }
 
 .head-last {
-    font-size: 10px;
+    font-size: 18px;
     font-weight: 900;
     padding: 5px 20px 20px 20px;
     border: 1px dotted #fff;
@@ -189,7 +189,7 @@ HOME SECTION STYLES
 }
 
 /* --------------------------
-Contact styles
+Booking styles
 ----------------------------*/
 
 flex.container {
@@ -203,7 +203,7 @@ flex.container {
     box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5)
 }
 
-#contact{
+#booking{
     background-color: #f5f3f3;
 }
 
@@ -223,11 +223,21 @@ text-align: center;
 margin: 0 auto;
 color: #13161B;
 font-weight: 500;
-font-size: 1.5em;
-font-variant: small-caps;
-letter-spacing: 4pt;
-word-spacing: 3pt;
+font-size: 1.3em;
+letter-spacing: 0pt;
+word-spacing: 0pt;
 }
+
+.reservation h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161B;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing:.3pt;
+}
+
 
 .reservation p {
     color: #13161B;
@@ -258,6 +268,9 @@ word-spacing: 3pt;
     padding: 2% 1% 2% 7%;
     width: 80%;
     border-top: 1px solid #090B0D;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
     margin: 10px 1em;
     border-radius: 7px;
     background: #13161B;
@@ -326,5 +339,3 @@ word-spacing: 3pt;
         padding: 20px 50px 20px 50px;
         text-align: right;
     }
-
-    
