@@ -217,7 +217,7 @@ flex.container {
 }
 
 
-.reservation h2{
+.reservation h2 {
 width: 70%;
 text-align: center;
 margin: 0 auto;
@@ -233,6 +233,8 @@ word-spacing: 0pt;
     text-align: center;
     margin: 0 auto;
     color: #13161B;
+    font-weight: 900;
+    font-size: 1.5em;
     font-variant: small-caps;
     letter-spacing: .4pt;
     word-spacing:.3pt;
@@ -260,7 +262,7 @@ word-spacing: 0pt;
     font-family: 'Raleway', sans-serif;
 }
 
-.reservation input [type="text]"] {
+.reservation input[type="text]"] {
     font-size: 15px;
     outline: none;
     font-weight: 600;
