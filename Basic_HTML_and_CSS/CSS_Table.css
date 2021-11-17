@@ -1,0 +1,12 @@
+table { 
+   border: 3px white;
+}
+th { 
+background-color: black;
+color: white; 
+}
+
+th:hover {
+     background-color: green;
+     color: blue;
+}
