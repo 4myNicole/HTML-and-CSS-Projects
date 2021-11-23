@@ -1,0 +1,117 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+  }
+
+  .navbar {
+    position: fixed;
+    background-color: rgb(68, 66, 66);
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+.navbar a {
+    color: white;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none
+}
+
+.navbar a:hover {
+  color: red;
+  background: lightgray;
+}
+
+
+  img {
+      filter: sepia(40%);
+     border-radius: 20px;
+     padding: 2% 2% 2% 2%;
+     margin-top: 30px;
+  }
+
+  .Image1, .Image2, .Image3 {
+      position: relative;
+  }
+
+  .Image-text {
+    text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 50px;
+      text-shadow: 2px 2px white ;
+      color: rgb(183, 222, 247);
+  }
+
+  .Image2:hover {
+    opacity: 0.3;
+  }
+  .Image2:hover .Image-text2 {
+    opacity: 1;
+  }
+
+.Image-text2 {
+    background-color: pink;
+    color: rgb(250, 3, 250);
+    font-size: 30px;
+    padding: 20px 20px;
+    transition: 1s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+  p {
+      text-align: center;
+  }
+
+  p:hover {
+      background-color: black;
+      color: white;
+  }
+
+  table {
+    border-collapse: collapse;
+      
+  }
+  table, td, th {
+    border: double 2px black;
+  }
+
+  .column {
+      margin-top: 20px;
+    float: left;
+    width: 50%;
+    height: 30%;
+    color: green;
+  }
+  
+ 
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+td {
+    padding: 15px 20px 15px 5px;
+}
+
+.table-header {
+    background-color: deeppink;
+}
