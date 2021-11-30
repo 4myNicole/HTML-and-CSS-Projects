@@ -15,10 +15,11 @@ h1 {
 
 
 h1:hover {
-    filter: grayscale(5%); 
-    transform: scale(1.1); 
-    transition: transform 1s; 
-}
+    
+        filter: grayscale(5%); 
+        transform: scale(1.1); 
+        transition: transform 1s; 
+    }
 
 
 .white-text {
@@ -30,7 +31,7 @@ h1:hover {
 p {
     font-family: Perpetua, Rockwell Extra Bold;
     text-align: justify; 
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
     font-size: 20px;
     padding-left: 20px; 
     padding-right: 20px; 
@@ -55,13 +56,14 @@ p:hover {
 
 
 a {
-    color: red; 
+    color: red; /* makes the links red */
 }
 
-/* Quotation elements */
+
 q {
     font-style: italic; 
 }
+
 
 img {
     filter: grayscale(75%); 
@@ -69,7 +71,7 @@ img {
     max-width: 100%; 
     height: 340px; 
     display: block; 
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -80,8 +82,7 @@ img:hover {
 	transform: scale(1.1); 
 }
 
-/* The @media rule is used in media queries to apply different styles for different media/types of devices */
-/* On screens 576px and smaller the images will be 100px tall and centered vertically in the column */
+
 @media screen and (max-width: 576px) {
     img {
         height: 100px;
@@ -108,26 +109,25 @@ footer {
     animation: moveNav 5s; /* This applies the moveNav animation for all other browsers */
 }
 
+/* moveNav animation effect for moving the nav bar in from the left of the screen */
+@keyframes moveNav {
+    from {left: -100vw;} /* The navbar is starting off screen to the left */
+    to {left: 0vw;} /* This moves the navbar into place on the screen */
+}
+
 /* Navbar links */
 .Navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: rgb(129, 37, 37); /* This is the font color for text on our navbar */
-    padding: 14px 16px; /* This adds padding around our text */
-    text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
-    font-size: 20px; /* This specifies the font size for text on our navbar */
-    text-align: center; /* This centers the text within its container */
-    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
-    -webkit-animation: moveNavText 5.75s; /* Animation for Safari 4.0 - 8.0 */
-    animation: moveNavText 5.75s; /* Applies the moveNavText animation for 5.75s */ 
+    color: rgb(129, 37, 37); 
+    padding: 14px 16px; 
+    text-decoration: none; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px; 
+    text-align: center; 
+    
 }
 
-/* moveNavText animation effect for moving the navbar text from above the view to the navbar */
-@keyframes moveNavText {
-    from {top: -100vw;} /* This sets the navbar text 100% above the viewport */
-    to {top: 0vw;} /* This lowers the navbar text onto the navbar */
-}
 
 /* Screens 576px and smaller will display navbar links equally distributed */
 @media screen and (max-width: 576px) {
@@ -145,25 +145,22 @@ footer {
     text-decoration: underline; 
 }
 
-/* Navbar home button */
-.Navbar a.active { 
-    background-color: darkgray;
-}
+
 /***** END OF NAVBAR STYLING *****/
 
 /***** VIDEO STYLING *****/
-/* Formatting for background video */
-#CatLaptop_Video {
-    position: fixed; 
-    top: 0;
-    right: 0; 
-    bottom: 0; 
-    z-index: -1; 
+
+#Coding_Video {
+    position: fixed;
+    right: 0; /* no space between the edge of the video and  edge of the page */
+    bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
+    min-width: 100%; /* This ensures the video is displayed across the full width of the page */
+    z-index: -1; /* This places the video behind the other elements on the page */
 }
 
 /* Screens that are 576px and smaller will not display the background video */
 @media screen and (max-width: 576px) {
-    #CatLaptop_Video {
+    #Coding_Video {
         display: none;
     }
 }
@@ -171,10 +168,10 @@ footer {
 /* Texts over the video */
 .Video_Text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
-    color: white; 
-    width: 100%; 
-    padding: 20px; 
-    position: relative; 
+    color: white; /* Makes the font color white */
+    width: 100%; /* Ensures the video-text container fills the width of the video */
+    padding: 20px; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
+    position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
     -webkit-animation: moveVideoText 5.75s;
     animation: moveVideoText 5.75s;
 }
@@ -193,10 +190,10 @@ footer {
 
 .Column_1 {
     float: left;
-    width: 50%; /* This ensures the column takes up half of the page width */
+    width: 50%; 
     padding: 10px;
-    padding-top: 0%; /* This ensures there is space between the top of the column and our headings */
-    height: 400px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
+    padding-top: 3%;
+    height: 400px; 
     background-color: #f2f2f2; /* Sets the background color of the columns with class Column_1 */
 }
 
@@ -231,25 +228,25 @@ footer {
 /***** END OF TABLE STYLING *****/
 
 /***** CONTACT FORM STYLING *****/
-/* input[type=text] targets all text input sections of the contact form */
+
 input[type=text] {
-    width: 100%; /* Each input box covers the full width of the container */
-    padding: 12px; /* Adds padding within the text box */
-    border: 1px solid #ccc; /* Setting a solid border and its color */
-    border-radius: 4px; /* Slightly rounds the corners of the text box border */
-    box-sizing: border-box; /* This creates a box with a border around the contact form input boxes */
-    margin-top: 6px; /* Adds a margin to the top of the text box */
-    margin-bottom: 16px; /* Adds a margin to the bottom of the text box */
-    resize: vertical; /* This allows the user to resize the text boxes vertically */
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
     font-family: Perpetua, Rockwell Extra Bold;
 }
 
-/* Hover effects for input boxes */
+
 input[type=text]:hover {
-    box-shadow: 0 0 5px red; /* This creates a blue shadow in the text box when hovered over by the user */
+    box-shadow: 0 0 5px red inset; 
 }
 
-/* Submit button */
+
 input[type=submit] {
     background-color: black; /* Sets the background color of the submit button to black */
     color: white; /* Sets the font color of the Submit button to white */
@@ -264,19 +261,17 @@ input[type=submit] {
     font-family: Perpetua, Rockwell Extra Bold;
 }
 
-/* Hover effect for submit button */
 input[type=submit]:hover {
-    background-color: rgb(122, 122, 122); 
+    background-color: rgb(216, 66, 66); 
     color: black; 
     transform: scale(1.5); 
     transition: transform 1.5s; 
-}
 
-/* Form element */
+
 form {
-    border-radius: 5px; 
+    border-radius: 5px; /* Rounds the corners of the contact form */
     background-color: #f2f2f2; 
-    padding: 10px; 
+    padding: 10px; /* Adds padding to the contact form */
     font-family: "Trebuchet MS", Optima;
 }
 /***** END OF CONTACT FORM STYLING *****/
