@@ -5,13 +5,13 @@ function addition_function () {
 
 function subtract_function(){       
 
-    var subtract = 5 - 5;           
+    var subtract = 5 - 2;           
 
     document.getElementById("math.subtract").innerHTML = subtract;   
 }
 
 
-function multiply_operator() {
+function multiply_function() {
             var multiply = 30 * 5;
             document.getElementById("math.multiply").innerHTML =  multiply;
 }
@@ -29,7 +29,7 @@ function negation_operator() {
 function increment_operator() {
 var inc = 20;
 X++;
-document.getElementById("math.inc").innerHTML = X; 
+document.getElementById("math.inc").innerHTML = inc; 
 }
 
 function decrement_operator() {
@@ -44,6 +44,6 @@ document.getElementById("math.random").innerHTML = random;
 }
 
 function math_object() {
-    var x = math.PI;
-    document.getElementById("math.object").innerHTML = math.PI;
+    var X = Math.PI;
+    document.getElementById("math.object").innerHTML = X;
 }
