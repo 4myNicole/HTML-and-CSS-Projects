@@ -1,9 +1,9 @@
-function addition_function () {
+function addition_function () { //Creating add function
     var addition =  2 + 2;
     document.getElementById("math.add").innerHTML =  addition; 
 }
 
-function subtract_function(){       
+function subtract_function(){   //Creating subtract function 
 
     var subtract = 5 - 2;           
 
@@ -11,39 +11,39 @@ function subtract_function(){
 }
 
 
-function multiply_function() {
-            var multiply = 30 * 5;
+function multiply_function() {  //Creating multiply function
+            var multiply = 30 * 5; 
             document.getElementById("math.multiply").innerHTML =  multiply;
 }
 
-function modulus_operator() {
+function modulus_operator() {   //Creating modulus function
             var simple_math = 25 % 6;
             document.getElementById("math.mod").innerHTML =  simple_math;
 }
 
-function negation_operator() {
+function negation_operator() {  //Creating negation function
             var x = 10;
             document.getElementById("math.neg").innerHTML = -x;
 }
 
-function increment_operator() {
+function increment_operator() {   //Creating increment function
 var inc = 20;
 X++;
 document.getElementById("math.inc").innerHTML = inc; 
 }
 
-function decrement_operator() {
+function decrement_operator() {   //Creating decrement function
 var dec = 69;
 X--;
 document.getElementById("math.dec").innerHTML = X; 
 }
 
-function random_Number() {
+function random_Number() {   //Creating random number function
 var random = Math.random() * 1000000
 document.getElementById("math.random").innerHTML = random; 
 }
 
-function math_object() {
+function math_object() {   //Creating math object function
     var X = Math.PI;
     document.getElementById("math.object").innerHTML = X;
 }
