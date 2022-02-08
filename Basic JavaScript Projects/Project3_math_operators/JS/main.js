@@ -32,11 +32,11 @@ inc++;
 document.getElementById("math.inc").innerHTML = inc; 
 }
 
-function decrement_operator() {   //Creating decrement function
-var dec = 69;
-dec--;
-document.getElementById("math.dec").innerHTML = X; 
-}
+function decrement_operator() {   //Creating increment function
+    var dec = 69;
+    dec++;
+    document.getElementById("math.inc").innerHTML = dec; 
+    }
 
 function random_Number() {   //Creating random number function
 var random = Math.random() * 1000000
