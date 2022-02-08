@@ -28,13 +28,13 @@ function negation_operator() {  //Creating negation function
 
 function increment_operator() {   //Creating increment function
 var inc = 20;
-X++;
+inc++;
 document.getElementById("math.inc").innerHTML = inc; 
 }
 
 function decrement_operator() {   //Creating decrement function
 var dec = 69;
-X--;
+dec--;
 document.getElementById("math.dec").innerHTML = X; 
 }
 
