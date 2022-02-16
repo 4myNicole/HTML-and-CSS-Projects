@@ -1,7 +1,4 @@
-function type_of() {
-         var type_of = (typeof "Word");
-             document.getElementById("type.of").innerHTML = type_of;
-    }
+document.write(typeof "Word")
 
     console.log(3>7); //Open console on web page and it will display result 
 
