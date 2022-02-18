@@ -25,9 +25,20 @@ function Vehicle(Make, Model, Year, Color) {
         this.pet_Age = Age;
         this.pet_Color = Color;
         }
-        var Callum = new Pet("Cat", "Luna", 10, "Tabby");
-        var Amy = new Pet("Dog", "Archie", 11, "Grey");
+        var Callum = new Pet("Cat", "Luna", 10, "Tabby"); //adding new pet for Callum
+        var amy = new Pet("Dog", "Archie", 11, "Grey"); //adding new pet for Amy
         function newFunction(){
         document.getElementById("New_and_This").innerHTML =
-        "Amy has a " + Amy.pet_Color + "-colored " + Amy.pet_Species + ", aged " + Amy.pet_Age + " and called " +Amy.pet_Name;
+        "amy has a " + amy.pet_Color + "-colored " + amy.pet_Species + ", aged " + amy.pet_Age + " and called " +amy.pet_Name;
         }
+
+ 
+        function Nested_Function() {
+            document.getElementById("Nest").innerHTML = Count();
+            function Count() {
+            var Starting_point = 68;
+            function Plus_one() {Starting_point += 1;} //nested function
+            Plus_one();
+            return Starting_point;
+                }
+            }
