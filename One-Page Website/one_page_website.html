@@ -1,151 +1,237 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title> Adopt don't shop </Title>
+
+<head>
+    <title> Adopt don't shop </Title>
     <link rel="stylesheet" href="CSS/One_Page_Website.css">
-    </head>
+    <script src="JS/one_page_website.js"></script>
+</head>
 
 <body>
 
-<header> <span style="color:red">Adopt </span> <span style="color:blue ">Dont </span> <span style="color:green"> Shop </span></header>
+    <header> <span style="color:red">Adopt </span> <span style="color:blue ">Dont </span> <span style="color:green">
+            Shop </span></header>
 
-<nav> <strong>
-<a href="#Boys"id="link"><li>Our Boys </li></a> 
-<a href="#Girls"id="link"><li>Our Girls </li></a>  
-<a href="#Contact"id="link"><li>Contact  Us </li></a>  
-</nav> </strong>
-<h2> Welcome </h2>
-<p> Here at Adopt Dont Shop, we love all animals and want the best for them. <br> Please see below for our animals in need of homes and get in touch if you are interested.</p>
+    <nav> <strong>
+            <a href="#Boys" id="link">
+                <li>Our Boys </li>
+            </a>
+            <a href="#Girls" id="link">
+                <li>Our Girls </li>
+            </a>
+            <a href="#Contact" id="link">
+                <li>Contact Us </li>
+            </a>
+    </nav> </strong>
+    <h2> Welcome </h2>
+    <p> Here at Adopt Dont Shop, we love all animals and want the best for them. <br> Please see below for our animals
+        in need of homes and get in touch if you are interested.</p>
+
+<!-- LIGHTBOX -->
+
+<h2 style="text-align:center">Gallery</h2>
+
+<div class="LB-main">
+    <div class="column">
+        <img src="./images/bear.jpg" onclick="openModal();currentSlide(1)"
+            class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="./images/elephant.jpg"  onclick="openModal();currentSlide(2)"
+            class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="./images/giraffe.jpg"  onclick="openModal();currentSlide(3)"
+            class="hover-shadow cursor">
+    </div>
+    <div class="column">
+        <img src="./images/Lion.jpg"  onclick="openModal();currentSlide(4)"
+            class="hover-shadow cursor">
+    </div>
+
+</div>
+
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+
+        <div class="mySlides">
+            <div class="numbertext">1 / 4</div>
+            <img src="./images/bear.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">2 / 4</div>
+            <img src="./images/elephant.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">3 / 4</div>
+            <img src="./images/giraffe.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">4 / 4</div>
+            <img src="./images/Lion.jpg" style="width:100%">
+        </div>
 
 
-<h2> Current adoptees </h2>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-<!-- ------------------------------
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="column">
+            <img class="demo cursor" src="./images/bear.jpg" style="width:100%" onclick="currentSlide(1)" alt="bear">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./images/elephant.jpg" style="width:100%" onclick="currentSlide(2)"
+                alt="elephant">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./images/giraffe.jpg" style="width:100%" onclick="currentSlide(3)"
+                alt="giraffe">
+        </div>
+        <div class="column">
+            <img class="demo cursor" src="./images/Lion.jpg" style="width:100%" onclick="currentSlide(4)" alt="Lion">
+        </div>
+    </div>
+</div>
+
+
+<!-- END LIGHTBOX -->
+=
+    <h2> Current adoptees </h2>
+
+    <!-- ------------------------------
             BOYS SECTION
 --------------------------------->
 
-<h3 id="Boys"><u> Our Boys </u></h3>
+    <h3 id="Boys"><u> Our Boys </u></h3>
 
-<div class="row">
-    <div class="column">
-<h4> Sampson </h4>
-<img src="./images/Sampson.jpg" width="360" height="300" alt="Image not available"> &nbsp;
-<ul> 
-<li> Age: 11</li>
-<li> Temperment: Independent </li>
-<li> Diet: Meat </li>
-</ul>
-    </div>
     <div class="row">
         <div class="column">
-<h4> Bruce </h4>
-<img src="./images/Bruce.jpg" width="360" height="300" alt="Image not available">  
-
-<ul> 
-<li> Age: 8 </li>
-<li> Temperment: Affectionate </li>
-<li> Diet: Plants </li>
-</ul>
+            <h4> Sampson </h4>
+            <img src="./images/Sampson.jpg" width="360" height="300" alt="Image not available"> &nbsp;
+            <ul>
+                <li> Age: 11</li>
+                <li> Temperment: Independent </li>
+                <li> Diet: Meat </li>
+            </ul>
         </div>
         <div class="row">
             <div class="column">
-<h4> Callum </h4>
-<img src="./images/Callum.jpg" width="360" height="300" alt="Image not available"> 
+                <h4> Bruce </h4>
+                <img src="./images/Bruce.jpg" width="360" height="300" alt="Image not available">
 
-<ul> 
-<li> Age: 16 </li>
-<li> Temperment: Aggressive </li>
-<li> Diet: Plants </li>
-</ul>
-    </div>
-    </div>
+                <ul>
+                    <li> Age: 8 </li>
+                    <li> Temperment: Affectionate </li>
+                    <li> Diet: Plants </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h4> Callum </h4>
+                    <img src="./images/Callum.jpg" width="360" height="300" alt="Image not available">
 
-<!-- ------------------------------
+                    <ul>
+                        <li> Age: 16 </li>
+                        <li> Temperment: Aggressive </li>
+                        <li> Diet: Plants </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ------------------------------
         END OF BOYS SECTION
 --------------------------------->
-<!-- ------------------------------
+            <!-- ------------------------------
             GIRLS SECTION
 --------------------------------->
 
-<h3 id="Girls"><u> Our Girls </u></h3>
-<div class="row">
-    <div class="column">
-<h4> Brandy </h4>
-<img src="./images/Brandy.jpg"width="360" height="300" alt="Image not available"> 
+            <h3 id="Girls"><u> Our Girls </u></h3>
+            <div class="row">
+                <div class="column">
+                    <h4> Brandy </h4>
+                    <img src="./images/Brandy.jpg" width="360" height="300" alt="Image not available">
 
-<ul> 
-<li> Age: 2 </li>
-<li> Temperment: Independent </li>
-<li> Diet: Meat </li>
-</ul>
-</div>
+                    <ul>
+                        <li> Age: 2 </li>
+                        <li> Temperment: Independent </li>
+                        <li> Diet: Meat </li>
+                    </ul>
+                </div>
 
-<div class="row">
-    <div class="column">
-<h4> Elsie </h4>
-<img src="./images/Elsie.jpg" width="360" height="300" alt="Image not available"> 
+                <div class="row">
+                    <div class="column">
+                        <h4> Elsie </h4>
+                        <img src="./images/Elsie.jpg" width="360" height="300" alt="Image not available">
 
-<ul> 
-<li> Age: 30 </li>
-<li> Temperment: Aggressive </li>
-<li> Diet: Plants </li>
-</ul>
-    </div>
+                        <ul>
+                            <li> Age: 30 </li>
+                            <li> Temperment: Aggressive </li>
+                            <li> Diet: Plants </li>
+                        </ul>
+                    </div>
 
-    <div class="row">
-        <div class="column">
-<h4> Daisy </h4>
-<img src="./images/Daisy.jpg" width="360" height="300" alt="Image not available"> 
+                    <div class="row">
+                        <div class="column">
+                            <h4> Daisy </h4>
+                            <img src="./images/Daisy.jpg" width="360" height="300" alt="Image not available">
 
-<ul> 
-<li> Age: 15</li>
-<li> Temperment: Affectionate </li>
-<li> Diet: Meat </li>
-</ul>
-        </div>
-    </div>
-<!-- ------------------------------
+                            <ul>
+                                <li> Age: 15</li>
+                                <li> Temperment: Affectionate </li>
+                                <li> Diet: Meat </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- ------------------------------
         END OF GIRLS SECTION
 --------------------------------->
 
-<!-- ------------------------------
+                    <!-- ------------------------------
             CONTACT SECTION
 --------------------------------->
-<div class="form">
-<h3 id="Contact"><u> Contact Us </u></h3>
-<form action="" method="get">
-Full Name: <input type="text" name="Full_Name"><br>
-Email Address: <input type="text" name="Email"><br>
-Phone Number: <input type="text" name="Phone Number"><br> 
-Message: <input type="Message" name="Message"><br> 
-</div>
+                    <div class="form">
+                        <h3 id="Contact"><u> Contact Us </u></h3>
+                        <form action="" method="get">
+                            Full Name: <input type="text" name="Full_Name"><br>
+                            Email Address: <input type="text" name="Email"><br>
+                            Phone Number: <input type="text" name="Phone Number"><br>
+                            Message: <input type="Message" name="Message"><br>
+                    </div>
 
-<div class="submit">
-<input type="submit" value="Submit">
-</div>
-</form>
-<br>
-<br>
-<br>
+                    <div class="submit">
+                        <input type="submit" value="Submit">
+                    </div>
+                    </form>
+                    <br>
+                    <br>
+                    <br>
 
-<!-- ------------------------------
+                    <!-- ------------------------------
         END OF CONTACT SECTION
 --------------------------------->
-<!-- ------------------------------
+                    <!-- ------------------------------
             VIDEO
 --------------------------------->
-<div class="Video"></div>
-<iframe width="400" height="200" src="https://www.youtube.com/embed/233fY4VIjCM?autoplay=1&mute=1">
-</iframe>
-</div>
-<br>
-<!-- ------------------------------
+                    <div class="Video"></div>
+                    <iframe width="400" height="200" src="https://www.youtube.com/embed/zQyGzG4sGvo?autoplay=1&mute=1">
+                    </iframe>
+                </div>
+                <br>
+                <!-- ------------------------------
         END OF VIDEO
 --------------------------------->
-<!---------------------------------
+                <!---------------------------------
         FOOTER
 -------------------------------->
-<footer> 
-AdoptDontShop.animals | &copy; 2020
+                <footer>
+                    AdoptDontShop.animals | &copy; 2020
 </body>
+
 </html>
