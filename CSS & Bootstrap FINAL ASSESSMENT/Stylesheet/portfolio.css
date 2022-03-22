@@ -263,7 +263,7 @@ input[type=submit]:hover {
     color: black; 
     transform: scale(1.5); 
     transition: transform 1.5s; 
-
+}
 
 form {
     border-radius: 5px; 
