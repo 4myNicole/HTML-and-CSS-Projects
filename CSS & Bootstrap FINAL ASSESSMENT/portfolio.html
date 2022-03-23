@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width" />
         <title>Amy's Portfolio</title>
         <link rel="stylesheet" type="text/css" href="Stylesheet/portfolio.css">
+        <script src="js/portfolio.js" defer></script>
     </head>
 
     <!--Body-->
@@ -48,31 +49,46 @@
                 </p>
             </strong>
         </div>
+        <!-- SLIDESHOW -->
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+        <img src="images/adrenaline.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/adopt.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+        <img src="images/pizza.PNG" style="width:100%">
+    </div>
+
+        <div class="mySlides fade">
+            <img src="images/tictactoe.PNG" style="width:100%">
+        </div>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+</div>
 
         <!--About section-->
         <div class="Row" id="About">
             <!--Left column-->
             <div class="Column_2">
-                
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <img src="Images/me.jpg" >
-                    </div>
-                    <div> 
-                        <img src="Images/adopt.png" >
-                    </div>
-                    <div class="mySlides fade">
-                    <img src="Images/adrenaline.png" >
-                    </div>
-                    <div class="mySlides fade">
-                    <img src="Images/pizza.PNG" >
-                    </div>
-                    <div class="mySlides fade">
-                    <img src="Images/tictactoe.PNG" >
-                    </div>
-    
+     <img src="Images/me.jpg">
                 </div>
-            </div>
+
+
+
+            
             <!--Right column-->
             <div class="Column_1">
                 <header>About</header>
@@ -82,7 +98,7 @@
                     <br>I am a current student of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s Software Developer Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript and SQL. 
                     <br>
                     <br>I am still learning but I believe I can help you with whatever you need. <a href="#Contact">Contact</a> me below!
-                    <br><br> <- Hover to see a few of my websites! 
+                    
                 </p>
             </div>
         </div>
@@ -137,6 +153,6 @@
         
 
        
-<script src="js/portfolio.js"></script>
+
     </body>
 </html>
